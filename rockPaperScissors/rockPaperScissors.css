@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    background: #17010aa5;
+    color: white;
+}
+
+#gameCanvas {
+    border: 5px solid rgb(152, 150, 176);
+    width: 100vw;
+    height: 100vh;
+}
+
+#gameContent {
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+span, #result {
+    font-weight: bold;
+}
+
+h1 {
+    white-space: nowrap;
+    position: relative;
+    top: -150px;
+}
+
+h2, h3 {
+    font-weight: normal;
+}
+
+.pick-btn {
+    display: inline;
+    background-color: yellow;
+    border: none;
+    margin: 10px;
+    padding: 5px 20px;
+    border-radius: 2px;
+    font-weight: bold;
+}
+
+.pick-btn:hover {
+    background: greenyellow;
+} 
+
+.pick-btn:active {
+    background: yellowgreen;
+}
+
+#result {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#score {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
